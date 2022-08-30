@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #4fc08d;
+    color: white;
+    text-align: center;
+    width: 90%;
+    max-width: 40rem;
+}
+
+#assignment{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+    max-width: 40rem;
+}
+
+#assignment button{
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid #ff0077;
+    background: #ff0077;
+    color: white;
+    padding: 0.05rem 1rem;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    margin: 0 1rem;
+}
+
+#assignment p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: 1px solid #4fc08d;
+    background-color: #4fc08d;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 25px; 
+}
